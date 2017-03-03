@@ -1,1 +1,1 @@
-# repo1
+Muj prvni repozitar. Zalozil jsem ho, jelikoz cekam co se stane. Je to vzrusujici.
