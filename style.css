@@ -1,3 +1,10 @@
+.content{
+  display: block;
+  max-width: 80%;
+  margin: auto;
+  border-style: dotted;
+  border-width: 5px;
+}
 body:after {
     content : "";
     display: block;
@@ -12,31 +19,6 @@ body:after {
 
 }
 
-    h1, h2{ 
-      text-align: center;
-      font-family: "Comic Sans MS", "Comic Sans", cursive;
-      text-decoration: underline;
-      text-transform: capitalize;
-      line-height: 3px
-       }
-p {
-  font-size: 17px;
-  margin-left: 14px;
-  padding-top: 12px;
-  font-family: sans-serif;
-}
-
-div, footer {
-    
-    justify-content: space-around;
-
-}
-body {
-  border-style: dotted;
-    border-width: 5px;
-    font-style: normal;
-}
-
 header, footer {
     background-color: rgb(240, 80, 80);
     opacity : 0.8;
@@ -44,7 +26,71 @@ header, footer {
     padding: 15px;
 }
 
-ol { 
-font-weight: normal;
-float: left;
- }
+h1, h2{ 
+    text-align: center;
+    font-family: cursive;
+    font-size: 42px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 3px
+}
+
+h1{
+  content: "O chytrém ševci a hloupém čertovi";
+  font-size: 60px;
+}
+
+
+
+p {
+  font-size: 17px;
+  font-family: Helvetica;
+  text-align: justify;
+}
+
+ol{
+  text-align: justify;
+  padding-left: 50px;
+}
+
+.autor {
+  display: inline-block;
+}
+
+.zdroj{
+  display: inline-block;
+  float: right;
+}
+
+#uvod,#pytel,#soutez,#zaver{
+  padding: 0em 1em;
+  font-family: Minion;
+  font-size: 1.2em;
+}
+#uvod{
+  text-align: justify;
+}
+#uvod em{
+  text-decoration: underline;
+}
+#pytel{
+  position: relative;
+  overflow: hidden;
+}
+
+#soutez{
+  position: relative;
+  overflow: hidden;
+}
+
+.zanr{
+  color: rgb(240, 80, 80);
+
+}
+
+footer p{
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  text-transform: uppercase;
+}
